@@ -1,12 +1,12 @@
 <?php
 
-namespace RobsonVLeite\CafeApi;
+namespace JuniorMMagalhaes\ItxApi;
 
 /**
  * Class Wallets
- * @package RobsonVLeite\CafeApi
+ * @package RobsonVLeite\ItxApi
  */
-class Wallets extends CafeApi
+class Wallets extends ItxApi
 {
     /**
      * Wallets constructor.

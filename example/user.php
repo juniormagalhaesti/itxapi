@@ -2,10 +2,10 @@
 require __DIR__ . "/assets/config.php";
 require __DIR__ . "/../vendor/autoload.php";
 
-use RobsonVLeite\CafeApi\Me;
+use RobsonVLeite\ItxApi\Me;
 
 $me = new Me(
-    "localhost/fsphp/cafeapi/",
+    "localhost/fsphp/itxapi/",
     "robsonvleite@gmail.com",
     "12345678"
 );

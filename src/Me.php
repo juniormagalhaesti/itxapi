@@ -1,12 +1,12 @@
 <?php
 
-namespace RobsonVLeite\CafeApi;
+namespace JuniorMMagalhaes\ItxApi;
 
 /**
  * Class Me
- * @package RobsonVLeite\CafeApi
+ * @package RobsonVLeite\ItxApi
  */
-class Me extends CafeApi
+class Me extends ItxApi
 {
     /**
      * Me constructor

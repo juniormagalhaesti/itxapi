@@ -2,10 +2,10 @@
 require __DIR__ . "/assets/config.php";
 require __DIR__ . "/../vendor/autoload.php";
 
-use RobsonVLeite\CafeApi\Invoices;
+use RobsonVLeite\ItxApi\Invoices;
 
 $invoices = new Invoices(
-    "localhost/fsphp/cafeapi/",
+    "localhost/fsphp/ItxApi/",
     "seuemail@gmail.com",
     "12345678"
 );

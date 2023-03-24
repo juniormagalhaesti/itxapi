@@ -1,19 +1,19 @@
 # CaféApi Library Test
 
-[![Maintainer](http://img.shields.io/badge/maintainer-@robsonvleite-blue.svg?style=flat-square)](https://twitter.com/robsonvleite)
-[![Source Code](http://img.shields.io/badge/source-robsonvleite/cafeapi-blue.svg?style=flat-square)](https://github.com/robsonvleite/cafeapi)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/robsonvleite/cafeapi.svg?style=flat-square)](https://packagist.org/packages/robsonvleite/cafeapi)
-[![Latest Version](https://img.shields.io/github/release/robsonvleite/cafeapi.svg?style=flat-square)](https://github.com/robsonvleite/cafeapi/releases)
+[![Maintainer](http://img.shields.io/badge/maintainer-@juniormagalhaesti-blue.svg?style=flat-square)](https://twitter.com/juniormagalhaesti)
+[![Source Code](http://img.shields.io/badge/source-juniormagalhaesti/itxapi-blue.svg?style=flat-square)](https://github.com/juniormagalhaesti/itxapi)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/juniormagalhaesti/itxapi.svg?style=flat-square)](https://packagist.org/packages/juniormagalhaesti/itxapi)
+[![Latest Version](https://img.shields.io/github/release/juniormagalhaesti/itxapi.svg?style=flat-square)](https://github.com/juniormagalhaesti/itxapi/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/robsonvleite/cafeapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/robsonvleite/cafeapi)
-[![Quality Score](https://img.shields.io/scrutinizer/g/robsonvleite/cafeapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/robsonvleite/cafeapi)
-[![Total Downloads](https://img.shields.io/packagist/dt/robsonvleite/cafeapi.svg?style=flat-square)](https://packagist.org/packages/crobsonvleite/cafeapi)
+[![Build](https://img.shields.io/scrutinizer/build/g/juniormagalhaesti/itxapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/juniormagalhaesti/itxapi)
+[![Quality Score](https://img.shields.io/scrutinizer/g/juniormagalhaesti/itxapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/juniormagalhaesti/itxapi)
+[![Total Downloads](https://img.shields.io/packagist/dt/juniormagalhaesti/itxapi.svg?style=flat-square)](https://packagist.org/packages/cjuniormagalhaesti/itxapi)
 
 ###### CaféApi Library is a small set of classes developed in UpInside's Full Stack PHP Developer training for integration into the webservice of a SaaS platform developed in the course..
 
 CaféApi Library é um pequeno conjunto de classes desenvolvidas na formação Full Stack PHP Developer da UpInside para integração ao webservice de uma plataforma SaaS desenvolvida no curso.
 
-Você pode saber mais **[clicando aqui](https://www.upinside.com.br/fsphp)**.
+Você pode saber mais **[clicando aqui](https://www.itxfincances.com)**.
 
 ### Highlights
 
@@ -27,13 +27,13 @@ Você pode saber mais **[clicando aqui](https://www.upinside.com.br/fsphp)**.
 Uploader is available via Composer:
 
 ```bash
-"robsonvleite/cafeapi": "^1.0"
+"juniormagalhaesti/itxapi": "^1.0"
 ```
 
 or run
 
 ```bash
-composer require robsonvleite/cafeapi
+composer require juniormagalhaesti/itxapi
 ```
 
 ## Documentation
@@ -49,7 +49,7 @@ Para mais detalhes sobre como usar, veja uma pasta de exemplo no diretório do c
 
 require __DIR__ . "/../vendor/autoload.php";
 
-use RobsonVLeite\CafeApi\Me;
+use juniormagalhaesti\itxapi\Me;
 
 $me = new Me(
     "suaapi.url.com",
@@ -87,7 +87,7 @@ if ($user->error()) {
 
 require __DIR__ . "/../vendor/autoload.php";
 
-use RobsonVLeite\CafeApi\Invoices;
+use juniormagalhaesti\itxapi\Invoices;
 
 $invoices = new Invoices(
     "suaapi.url.com",
@@ -152,7 +152,7 @@ Você também conta com classes para os endpoints de carteiras e assinaturas, to
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/robsonvleite/uploader/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/juniormagalhaesti/uploader/blob/master/CONTRIBUTING.md) for details.
 
 ## Support
 
@@ -164,10 +164,10 @@ Thank you
 
 ## Credits
 
-- [Robson V. Leite](https://github.com/robsonvleite) (Developer)
-- [UpInside Treinamentos](https://github.com/robsonvleite) (Team)
-- [All Contributors](https://github.com/robsonvleite/cafeapi/contributors) (This Rock)
+- [Robson V. Leite](https://github.com/juniormagalhaesti) (Developer)
+- [UpInside Treinamentos](https://github.com/juniormagalhaesti) (Team)
+- [All Contributors](https://github.com/juniormagalhaesti/itxapi/contributors) (This Rock)
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/robsonvleite/cafeapi/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/juniormagalhaesti/itxapi/blob/master/LICENSE) for more information.

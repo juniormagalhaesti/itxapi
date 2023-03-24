@@ -1,12 +1,12 @@
 <?php
 
-namespace RobsonVLeite\CafeApi;
+namespace JuniorMMagalhaes\ItxApi;
 
 /**
- * Class CafeApi
- * @package RobsonVLeite\CafeApi
+ * Class ItxApi
+ * @package RobsonVLeite\ItxApi
  */
-abstract class CafeApi
+abstract class ItxApi
 {
     /** @var string */
     private $apiUrl;
@@ -27,7 +27,7 @@ abstract class CafeApi
     protected $response;
 
     /**
-     * CafeApi constructor.
+     * ItxApi constructor.
      * @param string $apiUrl
      * @param string $email
      * @param string $password

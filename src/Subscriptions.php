@@ -1,12 +1,12 @@
 <?php
 
-namespace RobsonVLeite\CafeApi;
+namespace JuniorMMagalhaes\ItxApi;
 
 /**
  * Class Subscriptions
- * @package RobsonVLeite\CafeApi
+ * @package RobsonVLeite\ItxApi
  */
-class Subscriptions extends CafeApi
+class Subscriptions extends ItxApi
 {
 
     /**

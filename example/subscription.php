@@ -2,10 +2,10 @@
 require __DIR__ . "/assets/config.php";
 require __DIR__ . "/../vendor/autoload.php";
 
-use RobsonVLeite\CafeApi\Subscriptions;
+use RobsonVLeite\ItxApi\Subscriptions;
 
 $subscription = new Subscriptions(
-    "localhost/fsphp/cafeapi/",
+    "localhost/fsphp/itxapi/",
     "seuemail@gmail.com",
     "12345678"
 );
