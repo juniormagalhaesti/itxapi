@@ -1,4 +1,4 @@
-# CaféApi Library Test
+# ItxApi Library Test
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@juniormagalhaesti-blue.svg?style=flat-square)](https://twitter.com/juniormagalhaesti)
 [![Source Code](http://img.shields.io/badge/source-juniormagalhaesti/itxapi-blue.svg?style=flat-square)](https://github.com/juniormagalhaesti/itxapi)
@@ -9,9 +9,9 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/juniormagalhaesti/itxapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/juniormagalhaesti/itxapi)
 [![Total Downloads](https://img.shields.io/packagist/dt/juniormagalhaesti/itxapi.svg?style=flat-square)](https://packagist.org/packages/cjuniormagalhaesti/itxapi)
 
-###### CaféApi Library is a small set of classes developed in UpInside's Full Stack PHP Developer training for integration into the webservice of a SaaS platform developed in the course..
+###### ItxApi Library is a small set of classes developed in UpInside's Full Stack PHP Developer training for integration into the webservice of a SaaS platform developed in the course..
 
-CaféApi Library é um pequeno conjunto de classes desenvolvidas na formação Full Stack PHP Developer da UpInside para integração ao webservice de uma plataforma SaaS desenvolvida no curso.
+ItxApi Library é um pequeno conjunto de classes desenvolvidas na formação Full Stack PHP Developer da UpInside para integração ao webservice de uma plataforma SaaS desenvolvida no curso.
 
 Você pode saber mais **[clicando aqui](https://www.itxfincances.com)**.
 
